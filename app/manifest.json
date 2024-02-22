@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "CCU course searcher",
+    "version": "1.0",
+    "description": "中正大學選課查詢擴充功能提供關鍵字課程搜索並高亮顯示結果，自動更新課程數據庫以確保信息最新，簡化選課流程，提升查詢效率。",
+    "permissions": ["activeTab", "scripting"],
+    "action":
+    {
+        "default_icon":
+        {
+            "16": "16.png",
+            "48": "48.png",
+            "128": "128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://kiki.ccu.edu.tw/~ccmisp06/Course/index.html",
+                "https://kiki.ccu.edu.tw/~ccmisp06/Course/",
+                "https://kiki.ccu.edu.tw/~ccmisp06/Course/*"
+            ],
+            "exclude_matches": [
+                "https://kiki.ccu.edu.tw/~ccmisp06/Course/index_e.html"
+            ],
+            "js": ["searcher.min.js", "main.js"],
+            "css": ["searcher.min.css"]
+        }
+    ],
+    "icons":
+    {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    }
+}
