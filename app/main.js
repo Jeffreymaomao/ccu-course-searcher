@@ -32,6 +32,11 @@
     if(isInHomePage){
         tables[1].style.width = "100%";
         tables[1].classList.add("ccu-main-table");
+        const h1s = document.querySelectorAll("h1");
+        if(h1s.length===2){
+            h1s[0].classList.add("ccu-title");
+            h1s[1].classList.add("ccu-language");
+        }
     }
 
     insertBeforeTable.parentNode.insertBefore(searcherDOM, insertBeforeTable);
@@ -43,7 +48,7 @@
     updateDatebase(searcher);
     // --- update
     if(!CCU_class_needUpdate()){
-        updateDatebase(searcher)
+        updateDatebase(searcher);
         console.log("no need to update!");
         return;
     }else{
@@ -54,8 +59,7 @@
         const promises = parseDocFromLinks(all_links, all_departments);
         Promise.all(promises)
         .then(()=>{
-            localStorage.clear();
-            updateDatebase(searcher);
+            updateDatebase(searcher, clearFirst=true);
             console.log("update searcher database!");
         }).catch((e)=>{})
     }

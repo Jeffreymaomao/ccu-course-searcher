@@ -23,7 +23,7 @@
             "exclude_matches": [
                 "https://kiki.ccu.edu.tw/~ccmisp06/Course/index_e.html"
             ],
-            "js": ["searcher.min.js", "main.js"],
+            "js": ["searcher.min.js", "main.js", "beautify.js"],
             "css": ["searcher.min.css"]
         }
     ],
