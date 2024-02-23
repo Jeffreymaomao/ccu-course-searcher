@@ -3,7 +3,6 @@
     "name": "CCU course searcher",
     "version": "1.0",
     "description": "中正大學選課查詢擴充功能提供關鍵字課程搜索並高亮顯示結果，自動更新課程數據庫以確保信息最新，簡化選課流程，提升查詢效率。",
-    "permissions": ["activeTab", "scripting"],
     "action":
     {
         "default_icon":
