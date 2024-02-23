@@ -15,7 +15,7 @@
 
     ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/chrome_extension.png)
 
-2. 點擊開啟右上方開發人員模式，（<img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_close.png" height="50px"> $\Large\rightarrow$ <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_open.png" height="50px">），此時頁面會出現
+2. 點擊開啟右上方開發人員模式，（<img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_close.png" height="13pt"> ➡ <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_open.png" height="13pt">），此時頁面會出現
 
     ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/chrome_extension_dev.png)
 
