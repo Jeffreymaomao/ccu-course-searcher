@@ -1,4 +1,4 @@
 .DS_store
-.pxd/
-.zip
+*.pxd/
+*.zip
 test/
