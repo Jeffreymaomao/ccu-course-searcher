@@ -13,11 +13,11 @@
 
 1. 使用瀏覽器Chrome，並進入擴充功能頁面 [chrome://extensions/](chrome://extensions/)
 
-    ![](./assets/chrome_extension.png)
+    ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/chrome_extension.png)
 
-2. 點擊開啟右上方開發人員模式，（<img src="./assets/dev_close.png" height="30px"> $\large\rightarrow$ <img src="./assets/dev_open.png" height="30px">），此時頁面會出現
+2. 點擊開啟右上方開發人員模式，（<img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_close.png" height="50px"> $\Large\rightarrow$ <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/dev_open.png" height="50px">），此時頁面會出現
 
-    ![](./assets/chrome_extension_dev.png)
+    ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/chrome_extension_dev.png)
 
 **載入擴充功能**：
 
@@ -27,16 +27,16 @@
 
 3. 載擴充功能最左邊會有「載入未封裝項目」按鈕，點擊並選擇剛剛的資料夾 `app` 
 
-    ![](./assets/open_folder.png)
+    ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/open_folder.png)
 
 4. 載入成功後會出現
 
-    ![](./assets/loaded.png)
+    ![](https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/loaded.png)
 
 ## 使用方法
 
 進入 [國立中正大學課程表](https://kiki.ccu.edu.tw/~ccmisp06/Course/) 後就會從原本的網頁（左圖）變成載入後的結果（右圖）：
- <img src="./assets/ccu_original.png" width="45%"> <img src="./assets/ccu_loaded.png" width="45%" align="right">
+ <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/ccu_original.png" width="45%"> <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/ccu_loaded.png" width="45%" align="right">
 
 
 - 底下是原始的表格，但由於原始的網頁架構有些許的複雜，因此我有更改一些外觀。
@@ -54,7 +54,7 @@
     > PS: 出現的卡片資訊上，有出現的文字都可以搜尋的到。
 
 - 搜尋結果後會出現包含搜尋文字的資訊卡片，點擊後，會自動跳轉到該頁面課程位置，如圖
-    <img src="./assets/search_1.png" width="45%"> <img src="./assets/search_2.png" width="45%" align="right">
+    <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/search_1.png" width="45%"> <img src="https://github.com/Jeffreymaomao/ccu-course-searcher/raw/main/assets/search_2.png" width="45%" align="right">
 
 > 如果有任何問題，歡迎聯繫我：notetreerepository@gmail.com
 
