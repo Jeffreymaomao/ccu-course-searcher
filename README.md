@@ -1,8 +1,11 @@
 # CCU course searcher
 
 > 應用名稱：CCU course searcher（中正課程查詢系統）
+>
 > 應用頁面：https://kiki.ccu.edu.tw/~ccmisp06/Course/
+>
 > 瀏覽器：<img src="https://www.google.com/chrome/static/images/chrome-logo.svg" height="20pt">**Chrome**
+>
 > 應用主旨：用於幫助課程查詢，並沒有任何的自動選課、搶課功能。
 
 ## 安裝方法
