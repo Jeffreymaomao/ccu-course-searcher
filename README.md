@@ -13,11 +13,11 @@
 
 1. 使用瀏覽器Chrome，並進入擴充功能頁面 [chrome://extensions/](chrome://extensions/)
 
-    <!-- ![](./assets/chrome-extension.png) -->
+    ![](./assets/chrome-extension.png)
 
-<!-- 2. 點擊開啟右上方開發人員模式，（<img src="./assets/dev-close.png" height="30px"> $\large\rightarrow$ <img src="./assets/dev-open.png" height="30px">），此時頁面會出現 -->
+2. 點擊開啟右上方開發人員模式，（<img src="./assets/dev-close.png" height="30px"> $\large\rightarrow$ <img src="./assets/dev-open.png" height="30px">），此時頁面會出現
 
-    <!-- ![](./assets/ chrome-extension-dev.png) -->
+    ![](./assets/chrome-extension-dev.png)
 
 **載入擴充功能**：
 
